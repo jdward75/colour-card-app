@@ -1,0 +1,17 @@
+.a-main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.a-container-1 {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.a-container-2 {
+  flex-grow: 1;
+  display: flex;
+}
