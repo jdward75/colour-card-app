@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "./App.module.css";
 import CardEditor from "./components/CardEditor";
 import CardContainer from "./components/CardContainer";
 import { useState } from "react";
@@ -14,12 +14,6 @@ const App = () => {
 
   const updateCardColour = (id, colour) => {
     setCardsData((prevState) => {
-      // for (const obj of prevState) {
-      //   if (obj.id === id) {
-      //     obj.colour = colour;
-      //   }
-      //   break;
-      // }
       const newState = prevState.map((cardData) => {
         if (cardData.id === id) {
           return { ...cardData, colour: colour };
@@ -31,11 +25,11 @@ const App = () => {
   };
 
   return (
-    <div className="a-main-container">
-      <div className="a-container-1">
+    <div className={styles["main-container"]}>
+      <div className={styles["container-1"]}>
         <CardEditor onAddNewCard={addNewCard} edit={true} />
       </div>
-      <div className="a-container-2">
+      <div className={styles["container-2"]}>
         <CardContainer
           colour="red"
           cardsData={cardsData}

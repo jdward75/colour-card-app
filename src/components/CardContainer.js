@@ -1,4 +1,4 @@
-import "./CardContainer.css";
+import styles from "./CardContainer.module.css";
 import CardEditor from "./CardEditor";
 
 const CardContainer = (props) => {
@@ -9,7 +9,7 @@ const CardContainer = (props) => {
   console.log(props.cardsData);
 
   return (
-    <div className="c-main-container">
+    <div className={styles["main-container"]}>
       {filteredCards.map((card) => {
         return (
           <CardEditor

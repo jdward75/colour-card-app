@@ -1,4 +1,4 @@
-import "./CardEditor.css";
+import styles from "./CardEditor.module.css";
 import { useState } from "react";
 
 const CardEditor = (props) => {
@@ -28,7 +28,7 @@ const CardEditor = (props) => {
 
   if (props.edit) {
     return (
-      <div className="b-main-container">
+      <div className={styles["main-container"]}>
         <div>Title:</div>
         <input type="text" value={title} onChange={onTitleChangeHandler} />
         <div>Column:</div>
@@ -45,7 +45,7 @@ const CardEditor = (props) => {
 
   return (
     <div
-      className="b-main-container non-edit"
+      className={`${styles["main-container"]} ${styles["non-edit"]}`}
       style={{ backgroundColor: props.colour }}
     >
       <div>Title:</div>
