@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/colour-card-app/static/css/main.97d4c1af.css",
-    "main.js": "/colour-card-app/static/js/main.7b4a713f.js",
+    "main.css": "/colour-card-app/static/css/main.21bf3eb2.css",
+    "main.js": "/colour-card-app/static/js/main.ace5e18f.js",
     "static/js/787.6e87e1f9.chunk.js": "/colour-card-app/static/js/787.6e87e1f9.chunk.js",
     "index.html": "/colour-card-app/index.html",
-    "main.97d4c1af.css.map": "/colour-card-app/static/css/main.97d4c1af.css.map",
-    "main.7b4a713f.js.map": "/colour-card-app/static/js/main.7b4a713f.js.map",
+    "main.21bf3eb2.css.map": "/colour-card-app/static/css/main.21bf3eb2.css.map",
+    "main.ace5e18f.js.map": "/colour-card-app/static/js/main.ace5e18f.js.map",
     "787.6e87e1f9.chunk.js.map": "/colour-card-app/static/js/787.6e87e1f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97d4c1af.css",
-    "static/js/main.7b4a713f.js"
+    "static/css/main.21bf3eb2.css",
+    "static/js/main.ace5e18f.js"
   ]
 }
